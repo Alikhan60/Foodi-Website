@@ -1,0 +1,131 @@
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+                * {
+                    margin: 0%;
+                    padding: 0%;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    list-style: none;
+                    scroll-behavior: smooth;
+                }
+                
+                html {
+                    font-size: 62.5%;
+                }
+                
+                body {
+                    font-family: var(--main-font);
+                }
+                /* variable in css */
+                
+                 :root {
+                    --primary-color: #A82C48;
+                    --secvarond-color: #43121d;
+                    --third-color: #f98271;
+                    --white-color: #fff;
+                    --text-color: #555;
+                    --text-gray: #999;
+                    --black-color: #000;
+                    --main-font: font-family: 'Quicksand', sans-serif;
+                    --other-font: font-family: 'Poppins', sans-serif;
+                    --box: box-shadow: 0 1rem 1.7rem 0 rgba(0, 0, 0, 0.09);
+                }
+                /* global css */
+                
+                .paddin-top-bottom {
+                    padding-top: 8.25rem;
+                    padding-bottom: 8.25rem;
+                }
+                
+                .text-content {
+                    width: 70%;
+                    margin: auto;
+                }
+                
+                h1 {
+                    font-size: 4rem !important;
+                    font-weight: 900 !important;
+                    margin-bottom: 3rem !important;
+                    color: var(--secvarond-color) !important;
+                }
+                
+                h2 {
+                    font-size: 3rem !important;
+                    font-weight: 700 !important;
+                    color: var(--secvarond-color) !important;
+                    text-transform: capitalize !important;
+                    font-family: var(--other-font) !important;
+                    line-height: 4rem !important;
+                    margin-bottom: 1rem !important;
+                }
+                
+                h4 {
+                    font-size: 1.6rem !important;
+                    font-weight: 800 !important;
+                    color: var(--secvarond-color) !important;
+                    text-transform: capitalize !important;
+                    font-family: var(--other-font) !important;
+                    margin-bottom: 1rem !important;
+                }
+                
+                h5 {
+                    font-size: 1rem !important;
+                    color: var(--primary-color) !important;
+                    text-transform: capitalize !important;
+                    font-family: var(--other-font) !important;
+                    margin-bottom: 1rem !important;
+                    font-weight: 700 !important;
+                }
+                
+                p {
+                    font-size: 1.7rem !important;
+                    color: var(--text-color) !important;
+                    font-weight: 400 !important;
+                    letter-spacing: 1px !;
+                    margin-bottom: 1rem !important;
+                    line-height: 2.5rem !important;
+                }
+                
+                 ::-webkit-scrollbar {
+                    width: 0.625rem;
+                }
+                
+                 ::-webkit-scrollbar-track {
+                    background: var(--white-color);
+                }
+                
+                 ::-webkit-slider-thumb {
+                    background: #43121d;
+                }
+                /* navigation-wrap start */
+                /* navigation-wrap end */
+                
+                .navigation-wrap {
+                    position: fixed;
+                    width: 100%;
+                    top: 0%;
+                    z-index: 999;
+                    transition: all .4s ease-in;
+                }
+                
+                .nav-item {
+                    padding: .8rem;
+                }
+                
+                .nav-item .nav-link {
+                    font-size: 1.5rem;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                }
+                
+                .navigation-wrap .main-btn {
+                    display: block;
+                    /* margin-top: 1.5rem; */
+                    background: var(--primary-color);
+                    color: #fff;
+                    padding: .8rem 2rem;
+                    border-radius: 10px;
+                    margin-top: .3rem;
+                    font-size: 1.4rem;
+                    font-weight: 800;
+                    margin-left: 1rem;
+                }
